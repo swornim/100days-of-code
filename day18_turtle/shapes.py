@@ -9,10 +9,12 @@ tim = Turtle()
 
 
 for i in range (3,11):
+    
     random_color1 = random.random()
     random_color2 = random.random()
     random_color3 = random.random()
     tim.pencolor((random_color1,random_color2,random_color3))
+
     theta = 0
     angle = 360/i
     while theta < 360:
